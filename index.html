@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Para Gabrielle 💖</title>
+
+  <!-- Fontes e Estilos -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Tela de boas-vindas -->
+  <div id="telaBemVindo">
+    <div class="conteudo-bemvindo animate__animated animate__zoomIn">
+      <h2>💖 Bem-vinda, Gabrielle 💖</h2>
+      <p>Essa página é só pra você... preparada para sentir o amor? 💌</p>
+      <button onclick="entrar()">Entrar</button>
+    </div>
+  </div>
+
+  <!-- Músicas -->
+  <audio id="musicaPrincipal" src="xuxuzinho.mp3" loop></audio>
+  <audio id="musicaGaleria" src="galeria.mp3" loop></audio>
+
+  <!-- Corações subindo -->
+  <div class="hearts"></div>
+
+  <!-- Seção Principal -->
+  <section id="principal" class="secao">
+    <div class="container animate__animated animate__fadeInDown">
+      <h1 id="tituloPrincipal"></h1>
+      <p>
+        Hoje é o dia da garota mais doce, linda e incrível que já conheci. <br />
+        Gabrielle lindoca, você transforma minha vida com seu sorriso, sua voz e seu jeitinho único de ser. 💕<br />
+        Cada momento com você é um pedacinho de felicidade 😍
+      </p>
+
+      <div class="relogio-amor">
+        <h2>⏳ Estamos juntos há:</h2>
+        <p id="tempoJuntos"></p>
+      </div>
+
+      <div class="relogio-amor">
+        <h2>🕒 Estou sendo feliz há tanto tempo:</h2>
+        <div class="relogio-digitado">
+          <span id="Horas">00</span>h 
+          <span id="Minutos">00</span>min 
+          <span id="Segundos">00</span>s
+        </div>
+      </div>
+
+      <button onclick="criarArquivosMaliciosos()">Criar arquivos maliciosos 😈</button>
+      <div id="mensagemExtra"></div>
+    </div>
+  </section>
+  
+  <!-- Seção Texto Amoroso -->
+  <section id="amorzao" class="secao">
+    <div class="container animate__animated animate__fadeInUp">
+      <h1 id="tituloAmor"></h1>
+      <p class="texto-amor">
+        Amor, minha pipoquinha gostosa, minha Princess linda demais, cê não tem noção do quanto eu te amo 😭❤️.<br /><br />
+        Tipo, não é só amorzinho de filme não, é amor real, forte, daquele que dá frio na barriga só de ver sua foto ou ouvir sua voz. vc chegou de mansinho e virou tudo aqui dentro do meu coaxão gelado eu acordo e durmo pensando em você, no seu jeitinho, seu sorriso, seu olhar, sua risada que me desmonta todo 🥺💕.<br /><br />
+        Eu te amo mais que miojo de pimenta na gaveta, mais que rolê de mão dada no frio kksksk sla vida n sei expressar o quanto lhe amo 😍. Meu coração já é teu, desde sempre. Você é minha paz, meu abrigo, meu motivo de sorrir sem motivo. Eu quero passar cada momento da minha vida do seu ladinho, cuidando de você, mimando, enchendo de carinho e beijo, te fazendo rir até chorar 🫶.<br /><br />
+        E não importa se o mundo virar de cabeça pra baixo, se o céu cair ou a internet acabar (mas tomara que não kkk), eu vou tá aqui, com você, sempre. Porque você é minha metade, meu xuxuzinho, minha Gabrielle gostosa demais que me faz sentir o cara mais sortudo desse planeta todo 💘💘.<br /><br />
+        Te amo infinitamente, eternamente, completamente, minha vida linda 😚💖✨.
+      </p>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>💗 Feito com muito amor por Adrian para Gabrielle 💗</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
